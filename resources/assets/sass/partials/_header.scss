@@ -1,0 +1,34 @@
+header{
+  width: 100%;
+  height: 80px;
+  background-color: $colore_primario;
+  color:$colore_secondario;
+  font-family: 'Raleway', sans-serif;
+  .header_container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    line-height: 80px;
+    .header_container_logo{
+      float: left;
+    }
+    .header_container_menu{
+      float: right;
+      .menu{
+        list-style: none;
+        li{
+          display: inline-block;
+          margin-left: 20px;
+        }
+        a{
+          color:$colore_secondario;
+          font-weight: bold;
+          text-decoration: none;
+          &:hover{
+            border-bottom: 1px solid white;
+          }
+        }
+      }
+    }
+  }
+}
